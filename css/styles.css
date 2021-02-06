@@ -17,7 +17,7 @@ footer {
 }
 
 main {
-    height: 90vh;
+    min-height: 80vh;
 }
 
 a, a:hover {
@@ -28,7 +28,7 @@ a, a:hover {
 .logo {
     font-family: 'Lora', serif;
     font-size: 1.25rem;
-    color: white;
+    color: rgb(230, 230, 230);
     margin-bottom: 5px;
     
 }
@@ -38,11 +38,31 @@ a, a:hover {
 }
 
 .nav-link {
+    font-family: 'Lora', serif;
     color: white;
 }
 
-.logo:hover, 
 .nav-link:hover {
     color: rgb(207, 207, 207); 
+    text-shadow: 1px 1px 5px black;
 }
 
+.jumbotron {
+    background: url(/img/rehearsal-hero.jpg) center no-repeat;
+    background-size: cover;
+    min-height:40vh;
+}
+
+.container {
+    max-width: 1000px
+}
+
+h5 {
+    font-family: 'Lora', serif;
+    color: rgb(230, 230, 230);
+}
+.copywrite {
+    font-family: 'Lora', serif;
+    text-align: center;
+    color:  rgb(230, 230, 230);
+}
