@@ -5,10 +5,20 @@ html {
 
 body {
     background-color: #181d1d ;
-    
+    color: #fafafa;
     font-family: 'Philosopher', sans-serif;
 }
-nav, footer {
+
+h1, h2, h5 {
+    font-family: 'Lora', serif;
+}
+
+ul {
+    list-style: none ;
+    padding: 0;
+}
+
+nav, footer, .modal-header{
     background: linear-gradient(180deg, #255AAA 0%, rgba(0, 0, 0, 0.57) 100%), #255AAA;
 }
 
@@ -57,12 +67,36 @@ a, a:hover {
     max-width: 1000px
 }
 
-h5 {
-    font-family: 'Lora', serif;
-    color: rgb(230, 230, 230);
+.hero-container {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 10px;
 }
+
+.hero-text {
+    font-size: 3.5rem;
+}
+
+
 .copywrite {
     font-family: 'Lora', serif;
     text-align: center;
     color:  rgb(230, 230, 230);
+    margin-top: 35px;
+    margin-bottom: 0;
+}
+
+.card-header {
+    background: linear-gradient(180deg, #255AAA 0%, rgba(0, 0, 0, 0.57) 100%), #255AAA;
+}
+
+.day-of-week {
+    padding: 0 4px;
+}
+
+.social-icon {
+    padding: 2px 5px;
+}
+
+.row-content {
+    padding: 20px;
 }
