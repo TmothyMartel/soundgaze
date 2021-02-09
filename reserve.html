@@ -29,13 +29,13 @@
                 <ul class="navbar-nav">
                     
                     <li class="nav-item">
-                        <a class="nav-link" href="reserve.html">Book Now</a>
+                        <a class="nav-link" href="#">Book Now</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Rent Monthly</a>
+                        <a class="nav-link" href="monthly.html">Rent Monthly</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">contact</a>
+                        <a class="nav-link" href="contact.html">contact</a>
                     </li>
                 </ul>
                 <span class="navbar-text ml-auto nav-link">
@@ -119,15 +119,117 @@
                 </div>
             </div>
     <main class="container">
+        <header class="text-center">
+                <h2>Choose a Room to Reserve</h2>
+        </header>
 
-        <div class="card" style="width: 18rem;">
-            <img class="" src="/img/marc-fanelli-isla-xo4ValczbuA-unsplash.jpg" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a role="button" class="btn btn-primary" data-toggle="modal" data-target="#calendarModal"> Book This Room</a>
+        <div class="row d-flex justify-content-center mx-auto">
+            <!-- room info cards -->
+            <!-- Room 1 -->
+            <div class="card room-card">
+                <img class="" src="/img/marc-fanelli-isla-xo4ValczbuA-unsplash.jpg" alt="Card image cap">
+                <div class="card-body room-card-body">
+                    <h3 class="card-title room-card-title">Room 1 - $25/hr</h3>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <div id="accordian">
+                        <div role="tab" class="tab">
+                            <a data-toggle="collapse" data-target="#roomDetailsRM1"> <h4> 
+                                Room Details  
+                            </h4></a>
+                        </div>
+
+                        <div class="collapse" id="roomDetailsRM1"data-parent="#accordian">
+                            <ul>
+                                <li>240 Square Feet</li>
+                                <li>Fits 6 Comfortably</li>
+                                <li>Maple Drums</li>
+                                <li>88 Key Weighted Keyboard</li>
+                                </ul>
+                        </div>
+
+                        <div role="tab" class="tab">
+                            <a data-toggle="collapse" data-target="#equipmentRM1">  
+                                <h4> 
+                                    Equipment Details
+                                </h4>
+                            </a>
+                        </div>
+
+                        <div class="collapse" id="equipmentRM1" data-parent="#accordian">
+                            <ul>
+                                <li>Marshall Guitar Cabinet Amp w/ external Head Amp</li>
+                                <li>Fender Princeton Guitar Amp</li>
+                                <li>Line 6 Guitar Combo Amp</li>
+                                <li>Yamaha Portable PA w/ 2 Yamaha Speakers</li>
+                                <li>Full Pearl Drum Kit w/ Stool &amp; Cymbals</li>
+                                <li>Am peg Bass Amp</li>
+                                <li>2 Microphones</li>
+                                <li>2 Cords</li>
+                                <li>2 Stands</li>
+                                <li>Korg X50 Professional 61 Key Syth/Keyboard in LIC Location</li>
+                                <li>Yamaha PSR 410</li>
+                                </ul>
+                                <p>NO INSTRUMENTS, other than the keyboard.<br />
+                                You must provide your own music stands and drum sticks.</p>
+                        </div>
+                    </div>
+                    <a role="button" class="btn btn-outline-info" data-toggle="modal" data-target="#calendarModal"> Book This Room</a>
+                </div>
             </div>
-          </div>
+            <!-- Room 2 -->
+            <div class="card room-card">
+                <img class="" src="/img/marc-fanelli-isla-xo4ValczbuA-unsplash.jpg" alt="Card image cap">
+                <div class="card-body room-card-body">
+                    <h3 class="card-title room-card-title">Room 2 - $25/hr</h3>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <div id="accordian">
+                        <div role="tab" class="tab">
+                            <a data-toggle="collapse" data-target="#roomDetailsRM2"> <h4> 
+                                Room Details  
+                            </h4></a>
+                        </div>
+
+                        <div class="collapse" id="roomDetailsRM2"data-parent="#accordian">
+                            <ul>
+                                <li>240 Square Feet</li>
+                                <li>Fits 6 Comfortably</li>
+                                <li>Maple Drums</li>
+                                <li>88 Key Weighted Keyboard</li>
+                                </ul>
+                        </div>
+
+                        <div role="tab" class="tab">
+                            <a data-toggle="collapse" data-target="#equipmentRM2">  
+                                <h4> 
+                                    Equipment Details
+                                </h4>
+                            </a>
+                        </div>
+
+                        <div class="collapse" id="equipmentRM2" data-parent="#accordian">
+                            <ul>
+                                <li>Marshall Guitar Cabinet Amp w/ external Head Amp</li>
+                                <li>Fender Princeton Guitar Amp</li>
+                                <li>Line 6 Guitar Combo Amp</li>
+                                <li>Yamaha Portable PA w/ 2 Yamaha Speakers</li>
+                                <li>Full Pearl Drum Kit w/ Stool &amp; Cymbals</li>
+                                <li>Am peg Bass Amp</li>
+                                <li>2 Microphones</li>
+                                <li>2 Cords</li>
+                                <li>2 Stands</li>
+                                <li>Korg X50 Professional 61 Key Syth/Keyboard in LIC Location</li>
+                                <li>Yamaha PSR 410</li>
+                                </ul>
+                                <p>NO INSTRUMENTS, other than the keyboard.<br />
+                                You must provide your own music stands and drum sticks.</p>
+                        </div>
+                    </div>
+                    <a role="button" class="btn btn-outline-info" data-toggle="modal" data-target="#calendarModal"> Book This Room</a>
+                </div>
+            </div>
+        </div>
+        
+        
     </main>
     <footer>
         <div class="container">
